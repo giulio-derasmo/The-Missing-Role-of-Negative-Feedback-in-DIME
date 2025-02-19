@@ -4,14 +4,6 @@ This repository contains modified scripts based on the original work from the [D
 
 ## Repository Structure
 
-- **`dimension_filters/`**  
-  Contains the Dimension Importance Estimation (DIME) functions used to compute the importance score. The code in this folder inherits from the `Abstract_Filter` class, which sets up the operative functionality of the filters.
-
-The filters used to replicate the DIME in Section 4 are:
-  - **PRFEclipse**: Builds a filter based on pseudo-relevance feedback (PRF) and pseudo-irrelevant feedback.
-  - **LLMEclipse**: Builds a filter based on LLM-generated answers and pseudo-irrelevant feedback.
-
-
 - **`memmap_interface/`**  
   Includes the code for building the memmap data structure used to store the embeddings of various collections and query sets.
 
@@ -21,6 +13,13 @@ The filters used to replicate the DIME in Section 4 are:
   - **`search_faiss`**: Implements the retrieval pipeline without the DIME. This script outputs a file containing the retrieved documents for every query in the collection.
 
 The **grid_search.ipynb** store the hyperparameters we used to grid search for the Section 4.
+
+- **`dimension_filters/`**  
+  Contains the Dimension Importance Estimation (DIME) functions used to compute the importance score. The code in this folder inherits from the `Abstract_Filter` class, which sets up the operative functionality of the filters.
+
+The filters used to replicate the DIME in Section 4 are:
+  - **PRFEclipse**: Builds a filter based on pseudo-relevance feedback (PRF) and pseudo-irrelevant feedback.
+  - **LLMEclipse**: Builds a filter based on LLM-generated answers and pseudo-irrelevant feedback.
 
 ## Main Scripts
 
