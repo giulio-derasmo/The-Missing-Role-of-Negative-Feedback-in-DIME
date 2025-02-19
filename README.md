@@ -19,6 +19,8 @@ The filters used to replicate the DIME in Section 4 are:
   - **`build_index`**: Computes the FAISS index given the memmap data.
   - **`search_faiss`**: Implements the retrieval pipeline without the DIME. This script outputs a file containing the retrieved documents for every query in the collection.
 
+The **grid_search.ipynb** store the hyperparameters we used to grid search for the Section 4.
+
 ## Main Scripts
 
 - **`main.py`**  
