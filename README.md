@@ -31,8 +31,8 @@ The filters used to replicate the DIME in Section 4 are:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/yourrepository.git
-   cd yourrepository
+   git clone https://github.com/giulio-derasmo/The-Missing-Role-of-Negative-Feedback-in-DIME.git
+   cd .
    ```
 
 2. **Set up your environment and install the required dependencies.**
