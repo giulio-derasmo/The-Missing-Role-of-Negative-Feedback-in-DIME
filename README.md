@@ -1,7 +1,5 @@
 # The Missing Role of Negative Feedback in DIME
 
-# Modified DIME-SIGIR-2024 Repository
-
 This repository contains modified scripts based on the original work from the [DIME-SIGIR-2024 repository](https://github.com/guglielmof/DIME-SIGIR-2024/tree/main). Our modifications for reproducibility and replicability.
 
 ## Repository Structure
