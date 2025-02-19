@@ -8,8 +8,9 @@ This repository contains modified scripts based on the original work from the [D
   Contains the Dimension Importance Estimation (DIME) functions used to compute the importance score. The code in this folder inherits from the `Abstract_Filter` class, which sets up the operative functionality of the filters.
 
 The filters used to replicate the DIME in Section 4 are:
-  - **PRFEclipse**: Builds a filter based on pseudo-relevance feedback (PRF) and pseudo-irrelevant feedback.
+   - **PRFEclipse**: Builds a filter based on pseudo-relevance feedback (PRF) and pseudo-irrelevant feedback.
   - **LLMEclipse**: Builds a filter based on LLM-generated answers and pseudo-irrelevant feedback.
+
 
 - **`memmap_interface/`**  
   Includes the code for building the memmap data structure used to store the embeddings of various collections and query sets.
